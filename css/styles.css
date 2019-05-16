@@ -59,6 +59,13 @@ article.questionArea button {
 article.questionArea button:hover {
   background-color: navy;
 }
+article.questionArea button:active {
+  outline: none;
+  border: none;
+}
+article.questionArea button:focus {
+  outline: 0;
+}
 article.questionArea span.info {
   font-weight: bold;
   font-size: 18px;
