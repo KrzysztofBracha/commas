@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../img/img25.jpg");
+}
+article.questionArea {
+  margin: 0 auto;
+  background-color: #668cff;
+  width: 80%;
+  margin-top: 22px;
+  color: white;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+article.questionArea div {
+  margin-bottom: 10px;
+}
+article.questionArea div.questionText {
+  margin: 0 auto;
+  font-size: 120%;
+}
+article.questionArea div.questionText div.droppable {
+  width: 18px;
+  height: 18px;
+  background-color: red;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  margin: 0 4px;
+}
+article.questionArea div.questionText div.droppable:hover {
+  opacity: 0.5;
+}
+article.questionArea div.preview {
+  font-size: 100%;
+  margin-top: 15px;
+}
+article.questionArea button {
+  display: inline-block;
+  margin-right: 5px;
+  height: 26px;
+  letter-spacing: 1.2px;
+  width: 80px;
+  background: blue;
+  border: 2px solid rgba(33, 68, 72, 0.59);
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+}
+article.questionArea button:hover {
+  background-color: navy;
+}
+article.questionArea span.info {
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 5px;
+  position: relative;
+  top: 3px;
+}
+@media (max-width: 987px) {
+  article.questionArea {
+    width: 95%;
+    margin-top: 15px;
+    padding: 15px;
+  }
+  article.questionArea div.questionText {
+    font-size: 100%;
+  }
+  article.questionArea div.droppable {
+    width: 15px;
+    height: 15px;
+  }
+  article.questionArea button {
+    height: 25px;
+    width: 80px;
+    font-size: 12px;
+  }
+  article.questionArea span.info {
+    font-size: 18px;
+  }
+  article.questionArea div.preview {
+    font-size: 90%;
+  }
+}
+@media (max-width: 500px) {
+  article.questionArea {
+    margin: 0 auto;
+    background-color: #668cff;
+    width: 95%;
+    margin-top: 15px;
+    color: white;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 15px;
+  }
+  article.questionArea div.questionText {
+    font-size: 100%;
+  }
+  article.questionArea div.droppable {
+    width: 15px;
+    height: 15px;
+  }
+  article.questionArea button {
+    height: 23px;
+    width: 65px;
+    font-size: 10px;
+  }
+  article.questionArea span.info {
+    font-size: 15px;
+  }
+  article.questionArea div.preview {
+    font-size: 80%;
+  }
+}
