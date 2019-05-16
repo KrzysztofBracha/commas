@@ -102,7 +102,7 @@ $(document).ready(function () {
       $(info).css("color", "green");
     } else {
       $(info).html("Źle");
-      $(info).css("color", "red");
+      $(info).css("color", "#b00");
     }
   });
 });

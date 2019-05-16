@@ -29,7 +29,7 @@ article.questionArea div.questionText {
 article.questionArea div.questionText div.droppable {
   width: 18px;
   height: 18px;
-  background-color: red;
+  background-color: #c00;
   display: inline-block;
   position: relative;
   top: 2px;
